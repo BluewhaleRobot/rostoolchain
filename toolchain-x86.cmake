@@ -12,7 +12,7 @@ set(CMAKE_SYSTEM_VERSION 19)
 set(Boost_USE_STATIC_LIBS ON)
 set(Boost_LIB_PREFIX lib)
 set(Boost_COMPILER -clang)
-set(Boost_ARCHITECTURE -x86)
+set(Boost_ARCHITECTURE -x32)
 set(CATKIN_ENABLE_TESTING OFF)
 
 # target environment on the build host system
